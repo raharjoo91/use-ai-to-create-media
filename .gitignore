@@ -1,0 +1,107 @@
+# GitHub Git Ignore Template
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.so
+*/__pycache__/
+
+# Generated files
+*.log
+*.aux
+*.out
+*.toc
+*.pdf
+*.dvi
+*.ps
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node modules (if using any JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Sensitive information
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Large files that shouldn't be in git
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Draft files
+DRAFT_*
+*_draft.*
+*_v0.*
+*_old.*
+
+# Archive
+_Archive/
+archive/
+old/
+
+# Notes
+TODO.md
+NOTES.md
+scratchpad.md
