@@ -2,7 +2,6 @@
 
 > Leveraging AI tools (NotebookLM + Canva + Sora) to create professional occupational health and safety communication materials
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AI Tools](https://img.shields.io/badge/AI-NotebookLM%20%7C%20Canva%20%7C%20Sora-blue)](https://github.com/raharjoo91/use-ai-to-create-media)
 [![K3](https://img.shields.io/badge/Focus-K3%2FK3-green)](https://github.com/raharjoo91/use-ai-to-create-media)
 
@@ -184,12 +183,6 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 - Tool updates
 - Bug reports
 - Case studies
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 

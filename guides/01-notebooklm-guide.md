@@ -588,7 +588,295 @@ Before Using in Canva:
 
 ---
 
-## Advanced Tips
+## Creating Video Scripts with NotebookLM
+
+### Why Use NotebookLM for Video Scripts?
+
+NotebookLM is excellent for video script development because it:
+- Synthesizes multiple sources into coherent narratives
+- Provides citations for every claim
+- Generates dialogue and narration
+- Creates audio overviews for pacing reference
+- Extracts key procedures step-by-step
+
+### Video Script Prompt Templates
+
+#### Template 1: Procedure Demonstration Video (30-60 seconds)
+
+**Prompt:**
+```
+Create a video script for [PROCEDURE] demonstration with this structure:
+
+VIDEO TITLE: Catchy title (max 6 words)
+
+OPENING (5 seconds):
+- Hook: 1 sentence grabbing attention
+- Topic: What viewers will learn
+
+MAIN STEPS (40-50 seconds):
+Break into 3-5 steps. Each step needs:
+- Step number and name (2-3 words)
+- Visual description: What to show on screen (1 sentence)
+- Narration: What to say (10-15 words, simple language)
+- Duration: How long for this step (5-10 seconds)
+
+CLOSING (5-10 seconds):
+- Summary: Key takeaway (1 sentence)
+- Call to action: What to do next (3-5 words)
+
+Format as table with columns: Visual | Narration | Duration
+```
+
+**Example Prompt:**
+```
+Create a video script for proper hand washing demonstration:
+
+VIDEO TITLE: Wash Away Germs
+
+OPENING (5 seconds):
+- Hook: "Your hands carry 3,000+ germs"
+- Topic: Proper hand washing technique
+
+MAIN STEPS (40-50 seconds):
+3-5 steps with visual, narration, duration
+
+CLOSING (5-10 seconds):
+- Summary and call to action
+
+Format as table: Visual | Narration | Duration
+Base everything on WHO hand hygiene guidelines.
+```
+
+#### Template 2: Scenario-Based Training Video (60 seconds)
+
+**Prompt:**
+```
+Create a training video script showing [HAZARD SCENARIO]:
+
+SCENARIO SETUP (10 seconds):
+- Setting: Location and workers present
+- Initial situation: Normal work activity
+- Hazard introduced: What goes wrong
+
+PROBLEM RECOGNITION (10 seconds):
+- Character notices the hazard
+- Decision point: What to do
+- Tension building
+
+CORRECT RESPONSE (30 seconds):
+- Step-by-step correct actions
+- Why each step matters
+- Professional narration
+
+RESOLUTION (10 seconds):
+- Safe outcome achieved
+- Key learning point
+- Call to action for viewers
+
+Format as: SCENE | VISUAL | AUDIO | DURATION
+Include camera directions (close-up, wide shot, etc.)
+```
+
+**Example Prompt:**
+```
+Create a training video script showing chemical spill response:
+
+SCENARIO SETUP: Lab worker notices spilled chemical
+
+PROBLEM RECOGNITION: Worker assesses situation
+
+CORRECT RESPONSE: Step-by-step cleanup procedure
+
+RESOLUTION: Safe area restored
+
+Include camera directions and professional narration.
+Base on chemical safety guidelines in uploaded documents.
+```
+
+#### Template 3: Emotional Impact Video (30-45 seconds)
+
+**Prompt:**
+```
+Create an emotional safety video script about [TOPIC]:
+
+OPENING HOOK (5-7 seconds):
+- Emotional opening statement
+- Relatable worker image
+- Music suggestion: tone and tempo
+
+STORY SECTION (20-30 seconds):
+- Personal story or scenario
+- Emotional connection to safety
+- Why it matters to workers and families
+
+CONNECTION (5-8 seconds):
+- Link story to workplace
+- Make it personal for viewer
+
+CALL TO ACTION (5 seconds):
+- What viewers should do
+- Positive framing: "Protect yourself" not "Don't get hurt"
+
+Include: Visual descriptions | Narration | Music mood | Suggested pacing
+```
+
+#### Template 4: Micro-Learning Video (15 seconds)
+
+**Prompt:**
+```
+Create a 15-second micro-learning video script for [SAFETY TIP]:
+
+FORMAT:
+- Seconds 0-3: Show the action (what TO do)
+- Seconds 4-8: Explain WHY it matters
+- Seconds 9-12: Show the benefit
+- Seconds 13-15: Reinforce message
+
+Requirements:
+- One single focus point only
+- Simple language (grade 6-8)
+- Action-oriented
+- Memorable closing phrase
+
+Format as: Time | Visual | Audio
+```
+
+**Example Prompts for Micro-Videos:**
+```
+"Lifting technique: Create 15-second video about lifting with legs"
+
+"Eye protection: Create 15-second video about always wearing safety glasses"
+
+"Harness check: Create 15-second video about pre-use equipment inspection"
+```
+
+### From NotebookLM Script to Sora Video
+
+#### Step 1: Generate Script in NotebookLM (5 minutes)
+
+```
+1. Upload safety procedures and guidelines
+2. Use appropriate video script template
+3. Review generated script
+4. Copy to text editor
+5. Format for video production
+```
+
+#### Step 2: Convert Script to Sora Prompts (5 minutes)
+
+**For each scene in the script:**
+
+```
+SCRIPT: "Worker checks harness before climbing"
+SORA PROMPT: "Construction worker in safety vest and hard hat
+carefully inspecting safety harness, pulling on straps,
+checking buckles, serious and focused expression,
+professional training video style, medium shot"
+
+SCRIPT: "Worker begins climbing ladder with three points of contact"
+SORA PROMPT: "Worker maintaining three-point contact while
+climbing extension ladder, left hand and right foot on rungs,
+left foot moving to next rung, slow and deliberate movement,
+professional safety training, side view showing proper technique"
+```
+
+#### Step 3: Generate and Assemble Video (20-30 minutes)
+
+```
+1. Generate each scene in Sora using converted prompts
+2. Review clips for accuracy and safety
+3. Arrange clips in video editor
+4. Add transitions between scenes
+5. Insert text overlays for key points
+6. Add narration (use NotebookLM script or AI voice)
+7. Include captions for accessibility
+8. Export final video
+```
+
+### Audio Overview for Video Pacing
+
+**NotebookLM Audio Overview = Perfect Pacing Reference**
+
+```
+How to Use:
+1. Generate audio overview of your safety topic
+2. Listen to pacing and emphasis
+3. Note natural pauses and transitions
+4. Use this timing for your video narration
+5. Match visual changes to speech patterns
+
+Benefits:
+- Natural speaking rhythm
+- Appropriate emphasis on key points
+- Professional pacing without scripting every word
+```
+
+### Quick Video Script Prompts
+
+**For Common K3 Video Topics:**
+
+```
+Fire Extinguisher Use (PASS Method):
+"Create 60-second training video script for using fire extinguisher
+with PASS method (Pull, Aim, Squeeze, Sweep). Include:
+Opening hook → 4 steps → Common mistakes → Summary.
+Format as table with Visual, Audio, Duration columns."
+
+Ergonomics - Desk Setup:
+"Create 45-second video script showing proper workstation setup.
+Include: Monitor position, chair adjustment, keyboard placement.
+Format for quick micro-learning style."
+
+Emergency Evacuation:
+"Create 60-second video script for emergency evacuation procedure.
+Show: Recognizing alarm → Exit route → Assembly point.
+Include camera directions and professional narration."
+
+First Aid Response:
+"Create 30-second video script for basic first aid response.
+Focus on: Assessing situation → Calling help → Basic care.
+Keep simple and actionable."
+```
+
+### Video Script Best Practices
+
+```
+DO:
+✓ Write for spoken language (conversational)
+✓ Keep sentences short (10-15 words)
+✓ Use active voice ("Do this" not "This should be done")
+✓ Include visual directions for each scene
+✓ Specify timing for each segment
+✓ Plan for accessibility (captions, descriptions)
+✓ Include natural transitions
+
+DON'T:
+✗ Write paragraphs of narration
+✗ Use technical jargon
+✗ Forget visual descriptions
+✗ Ignore timing constraints
+✗ Skip safety verification
+✗ Make scenes too complex
+✗ Exceed attention spans (60 sec max for most)
+```
+
+### Script Verification Checklist
+
+```
+Before Video Production:
+☐ All safety procedures accurate
+☐ Steps in correct order
+☐ Citations tracked for verification
+☐ Language is simple and clear
+☐ Visual directions are specific
+☐ Timing is realistic
+☐ Transitions are smooth
+☐ Call to action is clear
+☐ Accessibility features included
+☐ Tested with target audience
+```
+
+---
 
 ### Tip 1: Combine Notebooks
 
