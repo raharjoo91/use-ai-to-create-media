@@ -277,6 +277,315 @@ A: [NotebookLM provides answer with citations]
 4. Use points + audio as script foundation
 ```
 
+### Use Case 5: Infographic Content Generation
+
+**Goal:** Create structured content for infographics in Canva
+
+**Why Use NotebookLM for Infographics:**
+- Organizes complex data into visual-friendly structures
+- Generates statistics with citations
+- Creates hierarchy of information
+- Provides copy-paste ready sections
+
+**Workflow:**
+```
+1. Upload data sources (reports, statistics, research)
+2. Use specific infographic prompts (see below)
+3. Copy generated content to Canva
+4. Each section becomes a design element
+```
+
+---
+
+## Creating Infographic Content with NotebookLM
+
+### Why NotebookLM for Infographics?
+
+Infographics need structured, hierarchical content that's easy to visualize. NotebookLM excels at:
+
+| Infographic Element | NotebookLM Strength |
+|---------------------|---------------------|
+| **Key Statistics** | Extracts and cites numbers |
+| **Headlines** | Generates catchy titles |
+| **Sections** | Organizes content logically |
+| **Bullet Points** | Creates scannable lists |
+| **Data Facts** | Finds supporting evidence |
+
+### Infographic Prompt Templates
+
+#### Template 1: Statistics-Based Infographic
+
+**Prompt:**
+```
+Create infographic content about [TOPIC] with the following structure:
+
+HEADLINE: Create a catchy, attention-grabbing title (max 7 words)
+
+KEY STATISTIC: Find the most impressive number from the sources
+Format: "X out of Y [outcome]" or "X% [result]"
+
+3-4 SECTIONS: Each with:
+- Section Title: 2-3 words
+- 2-3 bullet points: simple, scannable
+- One supporting number or fact
+
+CALL TO ACTION: What should readers do? (3-5 words)
+
+Source: Base everything on the uploaded documents only.
+```
+
+**Example Prompt:**
+```
+Create infographic content about workplace falls with the following structure:
+
+HEADLINE: Create a catchy, attention-grabbing title (max 7 words)
+
+KEY STATISTIC: Find the most impressive fall statistic from the sources
+Format: "X out of Y [outcome]" or "X% [result]"
+
+3-4 SECTIONS: Each with:
+- Section Title: 2-3 words
+- 2-3 bullet points: simple, scannable
+- One supporting number or fact
+
+CALL TO ACTION: What should workers do? (3-5 words)
+
+Source: Base everything on the uploaded OSHA fall prevention documents only.
+```
+
+**NotebookLM Output Example:**
+```
+HEADLINE: Don't Let Gravity Win
+
+KEY STATISTIC: 1 out of 5 workplace deaths are caused by falls
+
+SECTION 1: Most Common Falls
+• Falls from same level: 65%
+• Falls to lower level: 35%
+• Most frequent in construction
+
+SECTION 2: Root Causes
+• Slippery surfaces: 40%
+• Uneven ground: 25%
+• Improper ladder use: 20%
+
+SECTION 3: Prevention Works
+• Guardrails prevent 90% of falls
+• Training reduces incidents by 50%
+• Proper PPE is essential
+
+CALL TO ACTION: Use Fall Protection Always
+```
+
+#### Template 2: Process/Steps Infographic
+
+**Prompt:**
+```
+Create step-by-step infographic content for [PROCEDURE]:
+
+OVERVIEW TITLE: 3-4 words describing the process
+
+5-7 STEPS: Each step must include:
+- Step Number: 1, 2, 3, etc.
+- Action Title: 2-3 words (verb + noun)
+- Brief Description: 5-7 words explaining what to do
+- Time Required: (if applicable)
+
+TIP BOX: One important warning or tip
+
+Format for easy copying into Canva text boxes.
+```
+
+**Example Prompt:**
+```
+Create step-by-step infographic content for fire extinguisher use (PASS method):
+
+OVERVIEW TITLE: 3-4 words describing the process
+
+5-7 STEPS: Each step must include:
+- Step Number: 1, 2, 3, etc.
+- Action Title: 2-3 words (verb + noun)
+- Brief Description: 5-7 words explaining what to do
+- Time Required: (if applicable)
+
+TIP BOX: One important warning or tip
+
+Format for easy copying into Canva text boxes.
+```
+
+#### Template 3: Comparison Infographic
+
+**Prompt:**
+```
+Create comparison infographic content comparing [A] vs [B]:
+
+TITLE: "A vs B: What's the Difference?"
+
+3 COMPARISON POINTS: For each point include:
+- Category name: 2-3 words
+- Option A description: 3-5 words
+- Option B description: 3-5 words
+- Key difference: 1 sentence
+
+CONCLUSION: Which option is better and why (1 sentence)
+
+Format as side-by-side comparisons for Canva layout.
+```
+
+**Example Prompt:**
+```
+Create comparison infographic content comparing proper vs improper lifting:
+
+TITLE: "Lift Right vs Lift Wrong"
+
+3 COMPARISON POINTS: For each point include:
+- Category name: 2-3 words
+- Wrong way description: 3-5 words
+- Right way description: 3-5 words
+- Key difference: 1 sentence
+
+CONCLUSION: Which method prevents injuries (1 sentence)
+
+Format as side-by-side comparisons for Canva layout.
+```
+
+#### Template 4: Problem-Solution Infographic
+
+**Prompt:**
+```
+Create problem-solution infographic content about [HAZARD]:
+
+PROBLEM SECTION:
+- Problem Title: 3-4 words
+- 3 bullet points describing the hazard
+- Impact statistic (if available)
+
+SOLUTION SECTION:
+- Solution Title: 3-4 words
+- 4-5 action steps (numbered)
+- Expected outcome
+
+BENEFIT SECTION:
+- 3 benefits of following the solution
+- Each benefit: 3-5 words
+
+Format for clear visual separation in Canva.
+```
+
+### From NotebookLM to Canva: Step-by-Step
+
+#### Step 1: Generate Content in NotebookLM (5 minutes)
+
+```
+1. Open your K3 notebook
+2. Use one of the infographic prompts above
+3. Copy the generated content
+4. Save to Notepad or text file
+```
+
+#### Step 2: Set Up Canva Infographic (2 minutes)
+
+```
+1. Go to Canva → "Create Design"
+2. Search "Infographic" templates
+3. Choose a layout that matches your content type:
+   - Statistics: Number-focused template
+   - Steps: Process/flowchart template
+   - Comparison: Side-by-side template
+   - Problem-Solution: Section-based template
+4. Click to customize
+```
+
+#### Step 3: Transfer Content to Canva (5 minutes)
+
+```
+1. Copy each section from NotebookLM output
+2. Paste into corresponding Canva text box:
+   - HEADLINE → Title text box
+   - KEY STATISTIC → Featured number area
+   - SECTIONS → Body text boxes
+   - CALL TO ACTION → Footer/bottom section
+3. Adjust text to fit:
+   - Reduce word count if too long
+   - Split long sections into multiple boxes
+   - Use shorter words where possible
+4. Apply colors from brand kit
+```
+
+#### Step 4: Visual Enhancement (5 minutes)
+
+```
+1. Add icons for each section:
+   - Use Canva Elements → Icons
+   - Search for relevant safety icons
+   - Keep consistent style
+2. Add visual emphasis:
+   - Make KEY STATISTIC large and bold
+   - Use accent color for important numbers
+   - Add simple shapes or arrows for flow
+3. Review and adjust:
+   - Ensure readability from viewing distance
+   - Check color contrast
+   - Verify all information is accurate
+```
+
+### Quick Infographic Content Prompts
+
+**For Common K3 Topics:**
+
+```
+Fire Safety:
+"Create infographic content about fire prevention with statistics,
+prevention tips, and emergency response steps. Use the structure:
+Headline → Key Statistic → 3 Prevention Sections → Call to Action"
+
+Ergonomics:
+"Create infographic content about proper lifting techniques with:
+Overview → 5 Steps → Common Mistakes → Benefits. Format for visual flow."
+
+Chemical Safety:
+"Create infographic content comparing safe vs unsafe chemical handling
+with side-by-side comparisons. Include 3 comparison points."
+
+PPE Requirements:
+"Create infographic content showing 5 essential PPE items with:
+Item name → Purpose → When Required → Pro Tip. Format as icons list."
+```
+
+### Pro Tips for Infographic Content
+
+```
+DO:
+✓ Ask for specific numbers and statistics
+✓ Request scannable bullet points
+✓ Limit to 3-4 main sections
+✓ Include citations for verification
+✓ Keep headlines under 7 words
+✓ Use simple, action-oriented language
+
+DON'T:
+✗ Ask for long paragraphs
+✗ Include technical jargon
+✗ Exceed 5 sections
+✗ Forget to verify statistics
+✗ Use vague or generic content
+✗ Skip the call to action
+```
+
+### Content Verification Checklist
+
+```
+Before Using in Canva:
+☐ All statistics cited to sources
+☐ Numbers are current and accurate
+☐ Headlines are clear and catchy
+☐ Sections are logically organized
+☐ Text fits in 3-5 words per line
+☐ Call to action is specific
+☐ No misleading information
+☐ Reading grade level 6-8
+```
+
 ---
 
 ## Advanced Tips

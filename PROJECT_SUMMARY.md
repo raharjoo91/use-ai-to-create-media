@@ -334,8 +334,6 @@ For questions, suggestions, or collaboration:
 
 ---
 
-**Made with ❤️ for safer workplaces worldwide**
-
 ---
 
 *Generated: 2026-04-05*

@@ -3,8 +3,8 @@
 > Leveraging AI tools (NotebookLM + Canva + Sora) to create professional occupational health and safety communication materials
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI Tools](https://img.shields.io/badge/AI-NotebookLM%20%7C%20Canva%20%7C%20Sora-blue)](https://github.com/yourusername/ai-powered-k3-health-promotion)
-[![K3](https://img.shields.io/badge/Focus-K3%2FK3-green)](https://github.com/yourusername/ai-powered-k3-health-promotion)
+[![AI Tools](https://img.shields.io/badge/AI-NotebookLM%20%7C%20Canva%20%7C%20Sora-blue)](https://github.com/raharjoo91/use-ai-to-create-media)
+[![K3](https://img.shields.io/badge/Focus-K3%2FK3-green)](https://github.com/raharjoo91/use-ai-to-create-media)
 
 ## 📋 Overview
 
@@ -42,13 +42,8 @@ This open-source project provides practical guides, templates, and workflows for
 
 ### 5-Minute Workflow
 
-```mermaid
-graph LR
-    A[K3 Research] --> B(NotebookLM)
-    B --> C[Content + FAQs]
-    C --> D{Canva AI}
-    D --> E[Poster/Infographic]
-    E --> F[Test & Deploy]
+```
+K3 Research → NotebookLM → Content + FAQs → Canva AI → Poster/Infographic → Test & Deploy
 ```
 
 **Step 1:** Upload K3 guidelines to NotebookLM → Generate key points
@@ -210,31 +205,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 ## 📞 Contact & Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/ai-powered-k3-health-promotion/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/ai-powered-k3-health-promotion/discussions)
-- **Email:** your-email@example.com
-
----
-
-## 🗺️ Roadmap
-
-### v1.0 (Current)
-- ✅ Basic guides for all tools
-- ✅ Template library
-- ✅ Example gallery
-
-### v1.1 (Q2 2026)
-- [ ] Video tutorials
-- [ ] Interactive notebooks
-- [ ] Community contributions
-
-### v2.0 (Q3 2026)
-- [ ] Automated workflows
-- [ ] API integration
-- [ ] Multi-language support
+- **Issues:** [GitHub Issues](https://github.com/raharjoo91/use-ai-to-create-media/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/raharjoo91/use-ai-to-create-media/discussions)
 
 ---
 
 *Last updated: 2026-04-05*
-
-*Made with ❤️ for safer workplaces*
